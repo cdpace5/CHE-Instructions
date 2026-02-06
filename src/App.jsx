@@ -524,7 +524,7 @@ const ManualConfigurator = () => {
     
     body { font-family: "Times New Roman", Times, serif; }
     .helvetica-light { font-family: "Helvetica-Light", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 10pt; }
-    p { margin: 0; line-height: 1.3; font-size: 11pt; text-align: justify; }
+    p { margin: 0; line-height: 1.3; font-size: 11pt; text-align: left; }
     
     .title-box {
       background-color: #000000;
@@ -886,7 +886,7 @@ const ManualConfigurator = () => {
         
         <div className="flex-1 overflow-y-auto p-8 bg-white">
           <div className="max-w-4xl mx-auto">
-            <pre className="whitespace-pre-wrap font-sans text-sm leading-relaxed">{manual}</pre>
+            <pre className="whitespace-pre-wrap font-sans text-sm leading-relaxed text-left">{manual}</pre>
           </div>
         </div>
       </div>
